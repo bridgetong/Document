@@ -1,12 +1,12 @@
-```
-#结构动力学第三次作业
-##简谐荷载下结构动力响应
 
+## 简谐荷载下结构动力响应
+
+```Matlab
 m=545;                      %mass (kg)
 K=5.9511111*10^6;           %（kn/m)
 kesi=0.01;                  %damping ratio
 theta=10*pi;                %the frequency of loads (rad/s)
-w_n=(K/m)^0.5;          % natural frequency of vibration
+w_n=(K/m)^0.5;              % natural frequency of vibration
 w_d=w_n*(1-kesi^2)^0.5;     %natural frequency of damping system
 P_0=267;                    %amplitude of loads (N)
 % P_t=P_0.*sin(theta*t);      %function of loads
@@ -16,6 +16,7 @@ v_0=0;
 
 clear
 clc
+
 [t_1,y_th]=thearitical_methodfor37(10,0.005);%theoretical solution
 [t,y_du]=Duhamelintegralfor37(10,0.005);% solution in time domain
 [t_3,y_fre]=fre_methodfor37(10,0.005);%fft and ifft
@@ -62,8 +63,8 @@ v_0=0;
 %%%%%%%%the main program
 for i=1:(aa/bb)
     for j=1:i
-        %paramet1(j)=p(j)/(m*w)*bb*sin(w*(t(i)-t1(j)));                               %Duhameil's integral function for non-damping system
-        paramet2(j)=P(j)/(m*w_d)*bb*exp(-kesi*w_n*(t(i)-tau(j)))*sin(w_d*(t(i)-tau(j)));%%Duhameil's integral function for damping system
+        %paramet1(j)=p(j)/(m*w)*bb*sin(w*(t(i)-t1(j)));                                  %Duhameil's integral function for non-damping system
+        paramet2(j)=P(j)/(m*w_d)*bb*exp(-kesi*w_n*(t(i)-tau(j)))*sin(w_d*(t(i)-tau(j))); %%Duhameil's integral function for damping system
     end
     y_du(i)=sum(paramet2);%%displacement   
 end
