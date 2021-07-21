@@ -10,5 +10,5 @@
 * [linear equation set](https://github.com/bridgetong/Document/blob/main/MATLAB/linear%20equation%20set/linear%20equation%20set.md)  
   线性方程组求解 Matlab 代码
   
-  * [Error_and_effective_number](https://github.com/bridgetong/Document/blob/main/MATLAB/error%20and%20significant%20digitas/Error_and_effective_number_Code.md)  
+* [Error_and_effective_number](https://github.com/bridgetong/Document/blob/main/MATLAB/error%20and%20significant%20digitas/Error_and_effective_number_Code.md)  
     舍入误差与有效数字 程序示例
