@@ -6,3 +6,9 @@
 
 * [simple_harmonic_load_response](https://github.com/bridgetong/Document/blob/main/MATLAB/structure_dynamic/simple_harmonic_load_response.md)  
   简谐荷载下结构动力响应
+
+* [linear equation set](https://github.com/bridgetong/Document/blob/main/MATLAB/linear%20equation%20set/linear%20equation%20set.md)  
+  线性方程组求解 Matlab 代码
+  
+  * [Error_and_effective_number](https://github.com/bridgetong/Document/blob/main/MATLAB/error%20and%20significant%20digitas/Error_and_effective_number_Code.md)  
+    舍入误差与有效数字 程序示例
