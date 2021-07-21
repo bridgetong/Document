@@ -3,3 +3,6 @@
 
 * [Finite element analysis of bar structure with MATLAB](https://github.com/bridgetong/Document/blob/main/MATLAB/Finite%20element%20analysis%20of%20bar%20structure%20with%20MATLAB.md)  
   杆系结构MATLAB有限元分析。
+
+* [simple_harmonic_load_response](https://github.com/bridgetong/Document/blob/main/MATLAB/structure_dynamic/simple_harmonic_load_response.md)  
+  简谐荷载下结构动力响应
